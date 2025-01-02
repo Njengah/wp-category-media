@@ -1,0 +1,20 @@
+{
+    "name": "wp-category-media/plugin",
+    "description": "A WordPress plugin for adding and managing category images.",
+    "type": "wordpress-plugin",
+    "license": "GPL-3.0-or-later",
+    "autoload": {
+      "psr-4": {
+        "WPCategoryMedia\\": "src/"  
+      }
+    },
+    "authors": [
+      {
+        "name": "Njengah",
+        "email": "joe@njengah.com"
+      }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+  }
+  
