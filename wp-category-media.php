@@ -41,7 +41,7 @@ if ( file_exists( WP_CATEGORY_MEDIA_PATH . 'vendor/autoload.php' ) ) {
  * Main WP Category Media function to initialize the plugin.
  */
 function wp_category_media_init() {
-    \WP_Category_Media\Core\Main::get_instance();
+    \WPCategoryMedia\Core\Main::get_instance();
 }
-
 add_action( 'plugins_loaded', 'wp_category_media_init' );
+
