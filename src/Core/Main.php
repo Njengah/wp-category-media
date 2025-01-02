@@ -1,6 +1,7 @@
 <?php
 namespace WPCategoryMedia\Core;
 
+use WPCategoryMedia\Admin\CategoryImage; 
 use WPCategoryMedia\Traits\SingletonTrait;
 
 class Main {
@@ -16,6 +17,7 @@ class Main {
     private function initialize() {
         $this->load_dependencies();
         $this->register_hooks();
+        CategoryImage::get_instance();
     }
 
     private function load_dependencies() {
@@ -35,6 +37,6 @@ class Main {
     }
 
     public function display_footer_message() {
-        echo '<p>This is a footer message added by the WP Category Media plugin.</p>';
+        echo '<p>This is a footer messaged added by the WP Category Media plugin.</p>';
     }
 }
