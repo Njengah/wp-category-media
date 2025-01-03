@@ -95,7 +95,7 @@ class CategoryDisplay {
                                             <?php echo "View All"; ?>
                                         </a>
                                     </button>
-                                    <?php echo $category->count; ?>
+                                    <?php// echo $category->count; ?>
                                 </div>
                             </div>
                         </div>
