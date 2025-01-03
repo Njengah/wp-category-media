@@ -31,15 +31,7 @@ class CategoryDisplay {
             'wpcm_category_display'
         );
 
-        // Counter 
-        //  View All 
-        //  button bg
-        // button color
-        // button radius
-        // button color 
-        // list icon  
-        // list padding 
-        //
+       
 
         
         $cat_args = array(
