@@ -7,7 +7,7 @@
 .wpcm-catlay_1.container {
   background: #fcfffe;
   padding: 1em;
-  background: radial-gradient(circle at 60%, #ef2b0326 0, #fff0 75%),
+  background: radial-gradient(circle at 60%, #0396ef26 0, #fff0 75%),
     radial-gradient(circle at 30% 80%, #ced9f280 5%, #fff0 25%),
     radial-gradient(circle at 50% 15%, #f5e5b280 0, #fff0 35%);
 }
@@ -44,7 +44,7 @@
 }
 
 .wpcm-catlay_1.item ul li::marker {
-  color: #d11c27;
+  color: #84bd00;
   font-size: 20px;
   text-align: start;
 }
@@ -72,13 +72,14 @@
 
 .wpcm-catlay_1.item .footer button {
   width: 60%;
-  background: #d11c27;
+  background: #0a9977;
   height: 46px;
   margin-top: 5px;
-  border-radius: 4px;
+  border-radius: 2px;
   text-align: center;
   font-size: 17px;
   font-weight: 600;
+  margin-bottom: 5px;
 }
 
 .wpcm-catlay_1.item .footer button a {

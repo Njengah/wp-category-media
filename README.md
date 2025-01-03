@@ -2,6 +2,10 @@
 
 **WP Category Media** is a WordPress plugin that allows you to easily add and manage images for your categories. By associating images with categories, you can improve the visual appeal and usability of your site, making it easier for visitors to navigate and engage with content.
 
+## Screenshot
+
+![WPCM Screenshot](docs/github/assets/WPCM%20-%20Screenshot_1.png)
+
 ## Features
 
 - **Easy Category Image Upload:** Quickly upload and assign images to categories from the WordPress admin interface.
@@ -12,12 +16,14 @@
 
 ## Installation
 
-### 1. Install via WordPress Admin:
+### 1. Install via WordPress Admin
+
 1. Go to **Plugins > Add New** in your WordPress dashboard.
 2. Search for "**WP Category Media**."
 3. Click **Install Now** and then **Activate** the plugin.
 
-### 2. Install via FTP:
+### 2. Install via FTP
+
 1. Download the plugin ZIP file from the GitHub repository.
 2. Extract the ZIP file and upload the folder to the `/wp-content/plugins/` directory on your server.
 3. Go to **Plugins > Installed Plugins** and click **Activate** next to **WP Category Media**.
