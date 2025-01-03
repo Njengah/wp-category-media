@@ -1,0 +1,135 @@
+.wpcm-catlay_one-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.wpcm-catlay_1.container {
+  background: #fcfffe;
+  padding: 1em;
+  background: radial-gradient(circle at 60%, #ef2b0326 0, #fff0 75%),
+    radial-gradient(circle at 30% 80%, #ced9f280 5%, #fff0 25%),
+    radial-gradient(circle at 50% 15%, #f5e5b280 0, #fff0 35%);
+}
+
+.wpcm-catlay_1 .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.wpcm-catlay_1 .row .column {
+  float: left;
+  width: 33%;
+}
+
+.wpcm-catlay_1.item {
+  box-shadow: 0 0 40px #00000014;
+  border-radius: 0.5rem;
+  margin: 10px 10px 50px 10px;
+  background: #fff;
+  height: 400px;
+  overflow: hidden;
+}
+
+.wpcm-catlay_1.item ul {
+  list-style: disc;
+  margin-right: 10px;
+  font-family: Proxima Nova, proxima-nova, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Helvetica, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol !important;
+  font-size: 16px;
+  text-align: left;
+  margin-bottom: 1em;
+}
+
+.wpcm-catlay_1.item ul li::marker {
+  color: #d11c27;
+  font-size: 20px;
+  text-align: start;
+}
+
+.wpcm-catlay_1.item ul li a {
+  color: #123;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.wpcm-catlay_1.item .category-posts-list {
+  margin-left: 20%;
+}
+
+.wpcm-catlay_1.item .footer {
+  border-top: solid 1px #eee;
+  text-align: center;
+  font-size: 14px;
+  font-family: Proxima Nova, proxima-nova, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Helvetica, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol !important;
+  padding: 10px 5px 20px 5px;
+  margin-top: 10px;
+}
+
+.wpcm-catlay_1.item .footer button {
+  width: 60%;
+  background: #d11c27;
+  height: 46px;
+  margin-top: 5px;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.wpcm-catlay_1.item .footer button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.wpcm-catlay_1.item .header {
+  background-color: #fff;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #fff;
+  padding: 1em;
+  display: flex;
+  position: relative;
+  min-height: 100px;
+  align-items: center;
+  border-bottom: solid 1px #eee;
+  margin-bottom: 20px;
+}
+
+.wpcm-catlay_1.item .category-image {
+  width: 80px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.wpcm-catlay_1.item .category-image img {
+  /*border-radius: 100px;*/
+  height: 70px;
+  width: 70px;
+  /*border: solid 2px #2a8686;*/
+}
+.category-title {
+  margin-bottom: 0;
+}
+
+.category-title a {
+  font-family: Rubik, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: #123;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+/* Media query for screen with a maximum width of 768px (for mobile) */
+@media screen and (max-width: 600px) {
+  .wpcm-catlay_1 .row .column {
+    float: none;
+    width: 100%;
+  }
+}

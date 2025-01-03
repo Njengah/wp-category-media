@@ -42,7 +42,7 @@ class CategoryDisplay {
 
             ob_start(); 
             ?>
-            <div class="njenqah-catlay_1 container">
+            <div class="wpcm-catlay_1 container">
                 <div class="row">
                     <?php
                     
@@ -61,7 +61,7 @@ class CategoryDisplay {
                     
                         if (count($posts) >= 1) { ?>
                             <div class="column">
-                                <div class="njenqah-catlay_1 item">
+                                <div class="wpcm-catlay_1 item">
                                     <div class="header">
                                         <div class="cat-title">
                                             <?php
