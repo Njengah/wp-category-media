@@ -8,10 +8,7 @@ class Admin {
 
     use SingletonTrait;
 
-   
-    public function __construct() {
-    
-    }
+    public function __construct() {}
 
     
     /**
@@ -46,7 +43,6 @@ class Admin {
 
 
     }
-
 
 
 

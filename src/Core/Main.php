@@ -21,7 +21,6 @@ class Main {
         $this->register_hooks();
         CategoryImage::get_instance();
         CategoryDisplay::get_instance();
-
     }
 
     private function load_dependencies() {

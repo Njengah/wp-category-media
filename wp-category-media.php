@@ -20,7 +20,7 @@
 defined( 'ABSPATH' ) || exit;
 
 /**
- * Define plugin constants.
+ * Define Constants.
  */
 define( 'WP_CATEGORY_MEDIA_VERSION', '1.0.0' );
 define( 'WP_CATEGORY_MEDIA_FILE', __FILE__ );
@@ -31,7 +31,7 @@ define( 'WP_CATEGORY_MEDIA_BASE_DIR', __DIR__ );
 define( 'WP_CATEGORY_MEDIA_ADMIN', WP_CATEGORY_MEDIA_PATH . 'src/Admin/' );
 
 /**
- * Load Composer autoload (if available).
+ * Autoload CLASSES.
  */
 if ( file_exists( WP_CATEGORY_MEDIA_PATH . 'vendor/autoload.php' ) ) {
     require_once WP_CATEGORY_MEDIA_PATH . 'vendor/autoload.php';

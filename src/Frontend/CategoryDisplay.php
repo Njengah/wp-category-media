@@ -55,7 +55,7 @@ class CategoryDisplay {
                             'ignore_sticky_posts' => 1, 
                         );
                         $cat_id = $category->term_id;
-                        $image_id = get_term_meta( $cat_id, 'category-image-id', true );
+                        $image_id = get_term_meta( $cat_id, 'wpcm-category-image-id', true );
                         $posts = get_posts( $args );
 
                     
