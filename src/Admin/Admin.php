@@ -13,6 +13,14 @@ class Admin {
     
     /**
      * Enqueue admin-specific styles and scripts.
+     *
+     * This method is responsible for enqueuing the CSS and JavaScript assets 
+     * that are specific to the WordPress admin panel for the WP Category Media plugin.
+     * It ensures that the required styles and scripts are loaded only on admin pages 
+     * where they are needed, optimizing performance on other pages.
+     *
+     * @package WPCategoryMedia
+     * @since 1.0.0
      */
     public function enqueue_admin_assets() {
         wp_enqueue_style(
@@ -31,7 +39,17 @@ class Admin {
         );
     }
 
-
+    /**
+     * Enqueue frontend-specific styles.
+     *
+     * This method is responsible for enqueuing the CSS assets that are specific to 
+     * the frontend of the WordPress site for the WP Category Media plugin. 
+     * It ensures that the necessary styles are loaded only on the pages where 
+     * the plugin's frontend functionality is used, improving the site's performance.
+     *
+     * @package WPCategoryMedia
+     * @since 1.0.0
+     */
     public function enqueue_frontend_assets() {
 
         wp_enqueue_style(

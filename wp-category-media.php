@@ -20,7 +20,13 @@
 defined( 'ABSPATH' ) || exit;
 
 /**
- * Define Constants.
+ * Define plugin constants.
+ *
+ * This section defines the constants used across the WP Category Media plugin, including version, file path,
+ * URL, plugin directory, and admin-specific paths. These constants help in referencing the plugin's assets 
+ * and directory locations dynamically throughout the plugin.
+ *
+ * @since 1.0.0
  */
 define( 'WP_CATEGORY_MEDIA_VERSION', '1.0.0' );
 define( 'WP_CATEGORY_MEDIA_FILE', __FILE__ );
@@ -31,14 +37,25 @@ define( 'WP_CATEGORY_MEDIA_BASE_DIR', __DIR__ );
 define( 'WP_CATEGORY_MEDIA_ADMIN', WP_CATEGORY_MEDIA_PATH . 'src/Admin/' );
 
 /**
- * Autoload CLASSES.
+ * Autoload required classes for the plugin.
+ *
+ * This section checks if Composer's autoloader file exists and includes it. It allows automatic loading of 
+ * plugin classes that are defined in the 'vendor' directory, ensuring that class dependencies are loaded
+ * when needed.
+ *
+ * @since 1.0.0
  */
 if ( file_exists( WP_CATEGORY_MEDIA_PATH . 'vendor/autoload.php' ) ) {
     require_once WP_CATEGORY_MEDIA_PATH . 'vendor/autoload.php';
 }
 
 /**
- * Main WP Category Media function to initialize the plugin.
+ * Initialize the WP Category Media plugin.
+ *
+ * This function is called when the plugin is loaded, initializing the main plugin class. The `get_instance()`
+ * method ensures the singleton pattern is followed for the `Main` class.
+ *
+ * @since 1.0.0
  */
 function wp_category_media_init() {
     \WPCategoryMedia\Core\Main::get_instance();
