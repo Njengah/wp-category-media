@@ -2,9 +2,23 @@
 
 **WP Category Media** is a WordPress plugin that allows you to easily add and manage images for your categories. By associating images with categories, you can improve the visual appeal and usability of your site, making it easier for visitors to navigate and engage with content.
 
-## Screenshot
+## Screenshots
 
-![WPCM Screenshot](docs/github/assets/WPCM%20-%20Screenshot_1.png)
+### Multiple Category Display - Category Image
+
+![WPCM Screenshot](docs/github/assets/Screenshot_1.png)
+
+### Category List Page - Category Column
+
+![WPCM Screenshot](docs/github/assets/Screenshot_2.png)
+
+### Add Category Image - Category Image | Size | Border Radius
+
+![WPCM Screenshot](docs/github/assets/Screenshot_3.png)
+
+### Category Page Front - Category Image Display
+
+![WPCM Screenshot](docs/github/assets/Screenshot_4.png)
 
 ## Features
 
