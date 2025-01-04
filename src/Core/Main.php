@@ -19,9 +19,11 @@ class Main {
     private function initialize() {
         $this->load_dependencies();
         $this->register_hooks();
+        i18n::get_instance();
         CategoryImage::get_instance();
         CategoryDisplay::get_instance();
     }
+
 
     private function load_dependencies() {
         $this->loader = new Loader();
