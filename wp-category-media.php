@@ -3,7 +3,7 @@
  * @wordpress-plugin
  * Plugin Name:       WP Category Media
  * Plugin URI:        https://njengah.com
- * Description:       WP Category Media is an easier way to add and manage category images, enhancing the visual appeal of your archive and catagory pages. You can also use the shortcode to display multiple catagories layouts with category images.
+ * Description:       WP Category Media is an easier way to add and manage category images, enhancing the visual appeal of your archive and category pages. You can also use the shortcode to display multiple catagories layouts with category images.
  * Version:           1.0.0
  * Author:            Joe Njenga
  * Author URI:        https://njengah.com
