@@ -51,6 +51,8 @@
 3. You will see a new option to upload an image for that category. Click **Add Image** and choose your image from the media library or upload a new one.
 4. Save your changes, and the image will be displayed wherever categories are shown on your site.
 
+5. To display multiple categories with category images use the shortcode
+
 ## Customization
 
 You can customize how category images are displayed by adjusting your theme's CSS or using built-in WordPress hooks to fit your needs.
